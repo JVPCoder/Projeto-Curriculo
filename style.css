@@ -1,0 +1,16 @@
+@import url(assets/css/home.css);
+@import url(assets/css/responsive.css);
+@import url(assets/css/utils.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+}

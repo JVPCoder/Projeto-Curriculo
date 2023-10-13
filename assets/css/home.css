@@ -1,0 +1,381 @@
+:root{
+    --highlight: #8C1F28; 
+    --secodaryhighlight: #591C21; 
+    --neutral: #8C8C8C; 
+}
+
+header{
+    width: 100%;
+    height: 30px;
+    background-color: var(--highlight);
+}
+
+.container{
+    width: 90%;
+    max-width: 2024px;
+    min-height: 100%;
+    margin: auto;
+}
+
+/* Imagem */
+
+.container .profile{
+    width: 100%;
+    min-height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container .profile img{
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+/* Título */
+
+.container .h-name{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+
+.container .h-name h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: var(--secodaryhighlight);
+}
+
+.container .h-name h2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: var(--highlight);
+}
+
+/* Sobre */
+.container .h-sobre{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+
+}
+
+.container .h-sobre .h-title-sobre{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid var(--highlight);
+    margin-bottom: 25px;
+}
+
+.container .h-sobre .h-title-sobre h2{
+    margin-top: 5%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--secodaryhighlight);
+}
+
+.container .h-sobre .paragraf {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.container .h-sobre .paragraf-highlight{
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--highlight);
+}
+
+/* Experiências */
+
+.container .h-exp .h-title-exp{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid var(--highlight);
+    margin-bottom: 50px;
+}
+
+.container .h-exp .h-title-exp h2{
+   margin-top: 5%;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: bold;
+   font-size: 26px;
+   text-transform: uppercase;
+   color: var(--secodaryhighlight);
+}
+
+.container .h-exp .h-itens{
+   width: 100%;
+   min-height: 100px; 
+}
+
+.container .h-exp .h-itens .item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 220px;
+
+}
+
+.container .h-exp .h-itens .item .work{
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100px;
+
+}
+
+.container .h-exp .h-itens .item .work h2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--secodaryhighlight);
+}
+
+.container .h-exp .h-itens .item .work p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--highlight);
+}
+
+.container .h-exp .h-itens .item .work-desc{
+    width: 75%;
+    min-height: 100px;
+
+}
+
+.container .h-exp .h-itens .item .work-desc h2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--highlight);
+}
+
+.container .h-exp .h-itens .item .work-desc p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Educação */
+
+.container .h-educacao{
+    width: 100%;
+    min-height: 100px;
+}
+
+.container .h-educacao .h-title-educacao{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid var(--highlight);
+    margin-bottom: 50px;
+}
+
+.container .h-educacao .h-title-educacao h2{
+    margin-top: 5%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--secodaryhighlight);
+}
+
+.container .h-educacao .item{
+    width: 100%;
+    min-height: 220px;
+}
+
+.container .h-educacao .item .title{
+    margin-bottom: 10px;
+}
+
+.container .h-educacao .item .title h2{
+    font-family: 'Roboto Mono',monospace;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--secodaryhighlight);
+}
+
+.container .h-educacao .item .title span{
+    font-family: 'Roboto Mono',monospace;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--highlight);
+}
+
+.container .h-educacao .item p{
+    font-family: 'Roboto Mono',monospace;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* Habilidades */
+.container .h-habilidades{
+    width: 100%;
+    min-height: 100px; 
+    margin-bottom: 100px;
+}
+
+.container .h-habilidades .h-title-habilidades{
+    width: 100%;
+    height: 50px; 
+    border-bottom: 2px solid var(--highlight);
+    margin-bottom: 50px;
+    color: var(--secodaryhighlight);
+}
+
+.container .h-habilidades .h-title-habilidades h2{
+    margin-top: 5%;
+    font-family: 'Roboto Mono',monospace;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.container .h-habilidades .items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.container .h-habilidades .items .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+    transition: all .2s;
+}
+
+.container .h-habilidades .items .item:hover{
+    opacity: 0.7;
+}
+
+.container .h-habilidades .item .title{
+    min-width: 150px;
+}
+
+.container .h-habilidades .item h2{
+    font-family: 'Roboto Mono',monospace;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.container .h-habilidades .item .icon{
+    position: relative;
+    width: 200px;
+    height: 18px;
+    overflow: hidden;
+    border: 1px solid var(--neutral);
+    border-radius: 6px;
+    background: transparent;
+}
+
+/* Percentuais */
+.container .h-habilidades .item .icon .percentual-20{
+    width: 40px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+.container .h-habilidades .item .icon .percentual-30{
+    width: 60px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+.container .h-habilidades .item .icon .percentual-40{
+    width: 80px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+
+.container .h-habilidades .item .icon .percentual-50{
+    width: 110px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+.container .h-habilidades .item .icon .percentual-60{
+    width: 130px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+.container .h-habilidades .item .icon .percentual-70{
+    width: 150px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+/* Contato */
+
+.container .h-contato{
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+
+.container .h-contato .h-title-contato{
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 2px solid var(--highlight);
+    margin-bottom: 50px;
+    color: var(--secodaryhighlight);
+}
+
+.container .h-contato .h-title-contato h2{
+    margin-top: 5%;
+    font-family: 'Roboto Mono',monospace;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.container .h-contato .contatos-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container .h-contato .contatos-icons .image-icons{
+    width: 45px;
+    transition: all .2s;
+}
+
+.container .h-contato .contatos-icons .image-icons:hover{
+    opacity: 0.6;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: var(--highlight);
+}
