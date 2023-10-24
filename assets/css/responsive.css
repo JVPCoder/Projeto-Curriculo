@@ -232,3 +232,13 @@
         font-size: 22px;
     }
 }
+
+@media print{
+    .icon{
+        display: none;
+    }
+
+    .h-contato{
+        display: none;
+    }
+}

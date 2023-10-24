@@ -251,7 +251,7 @@ header{
 
 .container .h-habilidades .items{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
     margin-bottom: 20px;
