@@ -1,7 +1,7 @@
 :root{
-    --highlight: #8C1F28; 
-    --secodaryhighlight: #591C21; 
-    --neutral: #8C8C8C; 
+    --highlight: #8C1F28;
+    --secodaryhighlight: #591C21;
+    --neutral: #8C8C8C;
 }
 
 header{
@@ -114,7 +114,7 @@ header{
 
 .container .h-exp .h-itens{
    width: 100%;
-   min-height: 100px; 
+   min-height: 100px;
 }
 
 .container .h-exp .h-itens .item{
@@ -229,13 +229,13 @@ header{
 /* Habilidades */
 .container .h-habilidades{
     width: 100%;
-    min-height: 100px; 
+    min-height: 100px;
     margin-bottom: 100px;
 }
 
 .container .h-habilidades .h-title-habilidades{
     width: 100%;
-    height: 50px; 
+    height: 50px;
     border-bottom: 2px solid var(--highlight);
     margin-bottom: 50px;
     color: var(--secodaryhighlight);
@@ -254,6 +254,7 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
+    height: 200px;
     margin-bottom: 20px;
 }
 
@@ -315,25 +316,47 @@ header{
 
 
 .container .h-habilidades .item .icon .percentual-50{
-    width: 110px;
+    width: 100px;
     height: 100%;
     border-radius: 6px;
     background-color: var(--highlight);
 }
 
 .container .h-habilidades .item .icon .percentual-60{
-    width: 130px;
+    width: 120px;
     height: 100%;
     border-radius: 6px;
     background-color: var(--highlight);
 }
 
 .container .h-habilidades .item .icon .percentual-70{
-    width: 150px;
+    width: 140px;
     height: 100%;
     border-radius: 6px;
     background-color: var(--highlight);
 }
+
+.container .h-habilidades .item .icon .percentual-80{
+    width: 160px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+.container .h-habilidades .item .icon .percentual-90{
+    width: 180px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
+.container .h-habilidades .item .icon .percentual-100{
+    width: 200px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--highlight);
+}
+
 
 /* Contato */
 
